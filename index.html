@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14b5b870ac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="hedder">
+        <div class="container">
+            <nav>
+                <img src="dilip1.png" alt=""
+                    class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#hedder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#protfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="hedder-text">
+                <p>Web Design</p>
+                <h1>Hi, I'm <span>dilip mali</span> <br> from Rajasthan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------About---------------------------------------------- -->
+    <div id="about">
+        <div class="contaner">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dilip mali.jpg" alt="dilip-picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a MCA student. I want to become a good Web Developer. My objective is getting a job in IT
+                        field and get experience of technical skills. My aim to continuously learn and grow while
+                        utilizing my problem solving abilities.
+                        However, I am seek to join such a company where, i could enhance our skill for the
+                        betterment of company and myself, and i assure that i will try to become a trustworthy employee
+                        of company.</p>
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-link" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>
+                                <ul>
+                                    <li>Frontend Developer: ( HTML:5, CSS, JAVASCRIPT )</li>
+                                </ul>
+                            </li>
+                            <li><span>Other Language</span><br>
+                                <ul>
+                                    <li>C Language</li>
+                                    <li>C++</li>
+                                    <li>Basic PYTHON</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2018</span><br>
+                                <ul>
+                                    <li>10<sup>th</sup> ( RBSE )</li>
+                                </ul>
+                            </li>
+                            <li><span>2020</span><br>
+                                <ul>
+                                    <li>12<sup>th</sup> (RBSE )</li>
+                                </ul>
+                            </li>
+                            <li><span>2020 - 2021</span><br>
+                                <ul>
+                                    <li>BA - MOHANLAL SUKHADIA UNIVERCITY,UDAIPUR (MLSU)</li>
+                                    
+                                </ul>
+                            </li>
+                            <li><span>2019 </span><br>
+                                <ul>
+                                    <li>RS-CIT</li>
+                                    <li>RS-CLS</li>
+                                    <li>RS-CSS</li>
+                                </ul>
+                            </li>
+                            <li><span>2023 - CURRENT</span><br>
+                                <ul>
+                                    <li>MCA - Geetanjali Institute Of Technical Studies, Udaipur, Rajasthan ( RTU )</li>
+                                    <li>College Link : <a href="https://www.gits.ac.in/">https://www.gits.ac.in/</a>
+                                    </li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="projects">
+                        <ul>
+                            <li><span>Tic-Tac-Toe game</span><br>
+                                <ul>
+                                    <li>Using HTML, CSS, JAVASCRIPT</li>
+                                    <li>Project Link : <a
+                                            href="https://dilipmali9450.github.io/Tic-Tac-Toe-game/">https://dilipmali9450.github.io/Tic-Tac-Toe-game/</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><span>WEBSITE</span><br>
+                                <ul>
+                                    <li>Using tailwind css</li>
+                                    <li>Project Link : <a
+                                            href="https://dilipmali9450.github.io/decoration-/">https://dilipmali9450.github.io/decoration-/</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><span>MY PROTFOLIO</span><br>
+                                <ul>
+                                    <li>Using HTML, CSS, JAVASCRIPT</li>
+                                    <li>Project Link : <a
+                                            href="https://anandmohan75.github.io/My-Portfolio">https://anandmohan75.github.io/My-Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------Services----------------------------------- -->
+    <div id="services">
+        <div class="contaner">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2><u>Web Design</u></h2>
+                    <p>Web design is the creation of websites and pages to reflect a company’s brand and information and
+                        ensure a user-friendly experience. Appearance and design are incorporated as vital elements
+                        whether you’re designing a website, maintaining content on a web page. Gaining web
+                        design skills can help you in applying for roles where your creativity could help a business
+                        improve their brand, their message and their bottom line.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2><u>Backend Development</u></h2>
+                    <p>Adaptable back-end developer with a strong track record in creating efficient, scalable web
+                        applications. Proficient in Java and Spring Boot, with a deep understanding of RESTful APIs and
+                        microservices architecture. Experienced in optimizing database queries, reducing query execution
+                        time by 40% and enhancing application performance. Skilled in implementing secure authentication
+                        and authorization mechanisms, ensuring data integrity and protection.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2><u>Data Analytics</u></h2>
+                    <p>The term data analytics refers to the science of analyzing raw data to make conclusions about
+                        information. Many of the techniques and processes of data analytics have been automated into
+                        mechanical processes and algorithms that work over raw data for human consumption. Data
+                        analytics can be used by different entities, such as businesses, to optimize their performance
+                        and maximize their profits. This is done by using software and other tools to gather and analyze
+                        raw data.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------protfolio---------------------------------- -->
+    <div id="protfolio">
+        <div class="contaner">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="tic tac toe.png" alt="">
+                    <div class="layer">
+                        <h3><u>Online Tic-Tac-Toe</u></h3>
+                        <p>Tic-Tac-Toe is a simple and popular board game played between two players. The game is played on a 3x3 grid, where one player uses "X" and the other uses "O."
+                        </p>
+                        <a href="https://dilipmali9450.github.io/Tic-Tac-Toe-game/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="website.png" alt="">
+                    <div class="layer">
+                        <h3><u>business website</u></h3>
+                        <p>A business website serves as an online platform to promote and showcase a company's products, services, and values. It provides essential information to potential customers, offering details such as contact information, pricing
+                        </p>
+                        <a href=" https://dilipmali9450.github.io/decoration-/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tic tac toe 2.png" alt="">
+                    <div class="layer">
+                        <h3><u>Gaming Web</u></h3>
+                        <p>This website if fully resposible and gaming website.It is a like Simon Says Game of overview.
+                        </p>
+                        <a href="https://dilipmali9450.github.io/Tic-Tac-Toe-game/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------------------------------Contact information-------------------------------- -->
+    <div id="contact">
+        <div class="contaner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> dilipmali9450@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 6367163965</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/dilip.mali.14661"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/dilip_mali_ak47/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dilip-mali-4981aa280/"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/dilipmali9450"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="Anand Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder=" Enter your name" required>
+                        <input type="email" name="Email" placeholder="Enter your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message..." required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ dilip. Made with <i class="fas fa-heart"></i> by dilip mali</p>
+        </div>
+    </div>
+    <script src="JavaScript.js"></script>
+</body>
+
+</html>
