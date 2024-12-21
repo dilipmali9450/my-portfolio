@@ -26,8 +26,9 @@ body {
 }
 
 .logo {
-    height: 100px;
-    width: 220px;
+    padding-top: 2rem;
+    height: 130px;
+    width: 250px;
 }
 
 nav {
